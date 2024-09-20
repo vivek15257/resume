@@ -1,0 +1,189 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    meta http-equiv=X-UA-Compatible content=ie=edge
+    titleSatyaprakash Singh  Machine Learning Portfoliotitle
+    link rel=stylesheet href=style.css
+    link href=httpscdn.jsdelivr.netnpmbootstrap@5.3.0-alpha1distcssbootstrap.min.css rel=stylesheet
+    style
+         Basic Styling 
+        body {
+            font-family Arial, sans-serif;
+            margin 0;
+            padding 0;
+            box-sizing border-box;
+        }
+
+        .navbar {
+            margin-bottom 20px;
+        }
+
+        .hero-section {
+            background #f8f9fa;
+            padding 50px 0;
+        }
+
+        .hero-title {
+            font-size 2.5rem;
+            margin-top 20px;
+        }
+
+        .hero-subtitle {
+            font-size 1.5rem;
+            color #6c757d;
+        }
+
+        .about-section, .skills-section, .projects-section, .certifications-section, .contact-section {
+            padding 50px 0;
+        }
+
+        .profile-img {
+            width 150px;
+            height 150px;
+            border-radius 50%;
+            object-fit cover;
+        }
+
+        .project-item {
+            margin-bottom 20px;
+        }
+
+        .contact-info p, .contact-section form {
+            margin-top 10px;
+        }
+
+         Responsive Design 
+        @media (max-width 768px) {
+            .hero-title {
+                font-size 2rem;
+            }
+            .hero-subtitle {
+                font-size 1.25rem;
+            }
+        }
+    style
+head
+body
+    !-- Navigation --
+    nav class=navbar navbar-expand-lg navbar-light bg-light
+        div class=container-fluid
+            a class=navbar-brand href=#Satyaprakash Singha
+            button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label=Toggle navigation
+                span class=navbar-toggler-iconspan
+            button
+            div class=collapse navbar-collapse id=navbarNav
+                ul class=navbar-nav ms-auto
+                    li class=nav-itema class=nav-link href=#aboutAbout Meali
+                    li class=nav-itema class=nav-link href=#skillsSkillsali
+                    li class=nav-itema class=nav-link href=#projectsProjectsali
+                    li class=nav-itema class=nav-link href=#certificationsCertificationsali
+                    li class=nav-itema class=nav-link href=#contactContactali
+                ul
+            div
+        div
+    nav
+
+    !-- Hero Section --
+    header class=hero-section text-center
+        div class=container
+            img src=CUsersjayDesktopss.jpg alt=Satyaprakash Singh class=profile-img
+            h1 class=hero-titleSatyaprakash Singhh1
+            p class=hero-subtitleAspiring Machine Learning Engineer  Data Enthusiastp
+        div
+    header
+
+    !-- About Me --
+    section id=about class=about-section
+        div class=container
+            h2About Meh2
+            pHi! I'm Satyaprakash Singh, a passionate Machine Learning Engineer with experience in data analysis, model development, and AI technologies. Currently, I’m pursuing my [Bsc.Cs.Artificial intelligence & Machine learning] and working on projects that leverage machine learning to solve real-world problems.p
+        div
+    section
+
+    !-- Skills --
+    section id=skills class=skills-section
+        div class=container
+            h2Skillsh2
+            div class=row
+                div class=col-md-4
+                    h4Machine Learning Toolsh4
+                    pTensorFlow, Keras, Scikit-Learn, PyTorchp
+                div
+                div class=col-md-4
+                    h4Data Platformsh4
+                    pSQL, Pandas, NumPy, Jupyterp
+                div
+                div class=col-md-4
+                    h4Programmingh4
+                    pPythonp
+                div
+            div
+        div
+    section
+
+    !-- Projects --
+    section id=projects class=projects-section
+        div class=container
+            h2Projectsh2
+            div class=project-item
+                h4Image Classification with CNNh4
+                pDeveloped a convolutional neural network to classify images with high accuracy. a href=View on GitHubap
+            div
+            div class=project-item
+                h4Sentiment Analysis on Social Media Datah4
+                pImplemented a sentiment analysis model to analyze social media text data. a href=View on GitHubap
+            div
+            div class=project-item
+                h4Predictive Modeling for Sales Forecastingh4
+                pBuilt a predictive model to forecast sales and optimize inventory. a href= target=_blankView on GitHubap
+            div
+        div
+    section
+
+    !-- Certifications --
+    section id=certifications class=certifications-section
+        div class=container
+            h2Certificationsh2
+            ul
+                liMachine Learning Specialization (Coursera)li
+                liDeep Learning Specialization (Coursera)li
+                liPython for Data Science (DataCamp)li
+                liSQL for Data Science (DataCamp)li
+            ul
+            a href=CUsersjayDesktopResume_satyaprakash singh.pdf class=btn btn-primaryDownload Resumea
+        div
+    section
+
+    !-- Contact --
+    section id=contact class=contact-section
+        div class=container
+            h2Contact Meh2
+            form action=mailtosatyaprakashsingh@example.com method=post enctype=textplain
+                div class=mb-3
+                    label for=name class=form-labelNamelabel
+                    input type=text class=form-control id=name required
+                div
+                div class=mb-3
+                    label for=email class=form-labelEmaillabel
+                    input type=email class=form-control id=email required
+                div
+                div class=mb-3
+                    label for=message class=form-labelMessagelabel
+                    textarea class=form-control id=message rows=3 requiredtextarea
+                div
+                button type=submit class=btn btn-primarySend Messagebutton
+            form
+            div class=contact-info
+                pEmail a href=mailtosatyaprakashsingh@example.comsatyaprakash412770@gmail.comap
+                pPhone +91 9167276334p
+                pLinkedIn a href=httpswww.linkedin.cominsatyaprakash-singh-b51867248linkedin.cominsatyaprakash-singhap
+            div
+        div
+    section
+
+    !-- Bootstrap JS --
+    script src=httpscdn.jsdelivr.netnpmbootstrap@5.3.0-alpha1distjsbootstrap.bundle.min.jsscript
+body
+html
